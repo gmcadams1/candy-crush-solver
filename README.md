@@ -14,7 +14,8 @@ To run:
 ```
 python <# games> <# moves per game> <# rows> <# cols>
 ```
-Additional inputs:
+### Additional inputs:
+Run using a player implementing the algorithm
 ```
 Is player smart?(y or n)y
 Enter max tree depth:5
@@ -22,6 +23,7 @@ Enter beam width:10
 Starting Run #1
 ...
 ```
+Run using a player who chooses moves randomly
 ```
 Is player smart?(y or n)n
 Starting Run #1
