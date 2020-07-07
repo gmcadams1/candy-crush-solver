@@ -1,3 +1,8 @@
+"""
+    Filename: main.py
+    Author: Gregory McAdams
+    E-mail: gmcadams1@comcast.net
+"""
 import sys
 from src.runner import AITester
 

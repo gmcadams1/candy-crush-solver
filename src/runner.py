@@ -1,3 +1,8 @@
+"""
+    Filename: runner.py
+    Author: Gregory McAdams
+    E-mail: gmcadams1@comcast.net
+"""
 import math
 from src.cc_simulator import Driver
 

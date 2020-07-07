@@ -1,3 +1,8 @@
+"""
+    Filename: cc_simulator.py
+    Author: Gregory McAdams
+    E-mail: gmcadams1@comcast.net
+"""
 import random
 import abc
 import time
