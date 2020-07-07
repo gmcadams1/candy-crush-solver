@@ -1,10 +1,12 @@
 # Candy Crush Solver
 
-Attempts to maximizes score in a standard Candy Crush game given a number of moves remaining.
+Implements a text-based Candy Crush game simulator using the "standard" 6-color candies and some of the "special" candies (striped candy and chocolate bombs).  Includes both the "normal" game mode that aims to just maximize score in a given number of moves, a "jelly" mode in which the player must destroy all jelly while obtaining a minimum score, and a "combined" game mode in which the player must destroy the jelly in a number of moves while also maximizing score.
+
+Program includes a "random" player that selects a valid move at random, a "smart" player which implements the proposed algorithm, and a "human" player which prompts an interactive text-based Candy Crush game.
 
 This was my successful submission as a prerequsite to receiving my Master's degree.
 
-Code needs cleaning up / optimization / more configurable main / etc.
+_Note_: Code needs cleaning up / optimization / more configurable main / etc.
 
 ## Logic
 See pdf for details.
@@ -15,7 +17,7 @@ To run:
 python <# games> <# moves per game> <# rows> <# cols>
 ```
 ### Additional inputs:
-Run using a player implementing the algorithm
+Run using a player implementing the proposed algorithm
 ```
 Is player smart?(y or n)y
 Enter max tree depth:5
